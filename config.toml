@@ -25,6 +25,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   tag = "tags"
   # Categories are disabled by default.
 
+# toc目录显示级别
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 1
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"

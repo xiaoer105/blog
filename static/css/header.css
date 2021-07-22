@@ -6,8 +6,9 @@ html, body, button, input, select, textarea {
 }
 
 #site-header {
-    position: static;
+    /*position: static;*/
     animation-duration: 0s;
+    top: 0;
     bottom: auto;
     background: #f9f9f9;
 }
