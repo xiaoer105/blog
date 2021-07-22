@@ -77,8 +77,3 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "文章"
     url = "posts/"
     weight = 10
-
-  [[menu.nav]]
-    name = "源码解析"
-    url = "golang/"
-    weight = 20
