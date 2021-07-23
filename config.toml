@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "lee "
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -43,7 +43,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeSubtitle = "hello."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享-保持署名-非商业-禁止演绎</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
