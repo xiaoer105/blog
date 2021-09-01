@@ -32,3 +32,8 @@ a:hover {
 #mobile-menu {
     background-color: #f9f9f9;
 }
+
+/* 代码块高度 */
+pre {
+    height: 50rem;
+}
