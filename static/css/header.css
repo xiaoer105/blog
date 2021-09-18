@@ -35,5 +35,5 @@ a:hover {
 
 /* 代码块高度 */
 pre {
-    height: 50rem;
+    max-height: 50rem;
 }
