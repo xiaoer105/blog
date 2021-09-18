@@ -1,6 +1,6 @@
 baseURL = "http://www.younghot.cn"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+languageCode = "en-us" # 所有语言的列表
+defaultContentLanguage = "zh-hans" # 默认使用的语言，决定 i18n 本地化加载什么配置文件
 title = "lee baitan"
 theme = "hermit"
 # enableGitInfo = true
