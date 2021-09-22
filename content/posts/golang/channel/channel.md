@@ -1,20 +1,23 @@
 ---
-title: "Golang 源码解析系列之Channel"
+title: "golang 源码解析系列之 channel"
 date: 2021-07-22T23:56:32+08:00
 hidden: true
 draft: false
-tags: ["golang", "源码解析", "channel"]
-keywords: ["channel"]
-description: ""
+tags: 
+  - golang
+  - golang 源码解析
+  - channel
+keywords: 
+  - channel
+description: "Golang 源码解析系列之 Channel"
 slug: "Theme Preview"
 toc: true
 ---
 
-# 什么是channel
-
+## 什么是channel
 channel 又称管道，可以在多个 goroutine 中进行访问（内存共享），管道采用的是 FIFO（先进先出）队列，对 FIFO 队列的操作都是属于原子操作，不需要进行加锁。
 
-# 初始化
+## 初始化
 channel 提供了使用变量声明和使用内置函数 make 进行初始化，默认是双向读写，但是可以设置 channel 只负责读或者写操作。
 
 ```
@@ -22,20 +25,20 @@ ch := make(chan int) // 可以读取和发送类型 int 的数据
 ch := make(chan<- int) // 只可以发送 int 类型的数据
 ch := make(<-chan int) // 只可以读取 int 类型的数据
 ```
-## 变量声明方式：
+### 变量声明方式：
 ```
 var ch chan int
 ```
 变量声明, 默认为 nil，对 nil 的 channel 进行读取数据或者写入数据都会造成永久阻塞，这是致命错误，需要注意
 
-## make方式：
+### make方式：
 ```
 ch := make(chan int, 1) // 有缓冲通道
 ch := make(chan int) // 无缓冲通道
 ```
 使用内置函数make()，可以创建带缓存和无缓存的 channel
 
-# 常规操作
+## 常规操作
 使用 `<-` 操作符表示数据的流向，channel 在左边表示往 channel 中写入数据，channel 在右边表示读取 channel 内的数据。
 
 下面简单介绍写入、关闭的使用方式
@@ -51,6 +54,16 @@ n2, ok := <- ch // 从 ch 中读取数据
 也就是说，当管道已经关闭了，缓冲区没有数据，那么第一个变量返回类型对应的默认值，第二个变量为 false 。当管道没有关闭，缓冲区存在数据，那么第一个变量返回读取到的数据，第二个变量为true。
 
 使用内置函数 close() 可以关闭管道。
+
+## 数据结构
+
+## 写入
+
+## 读取
+
+## 关闭
+
+## 实际应用
 
 
 ## 注意事项
