@@ -54,7 +54,8 @@ pre code {
 /* p 标签下引用 */
 p code {
     color: #fa8919;
-    background: none;
+    background-color: rgba(27,31,35,.05);
+    border-radius: 3px;
 }
 
 /* 滚动条样式 */
