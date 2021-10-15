@@ -1,5 +1,5 @@
 ---
-title: "HTTP 报文长什么样子"
+title: "Http 报文长什么样子"
 date: 2021-10-13T14:00:19+08:00
 draft: false
 toc: true

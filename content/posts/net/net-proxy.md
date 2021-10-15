@@ -1,5 +1,5 @@
 ---
-title: "什么是 HTTP 代理"
+title: "什么是 Http 代理"
 date: 2021-09-23T17:40:36+08:00
 draft: false
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: "HTTPS 相关介绍"
+title: "Https 相关介绍"
 date: 2021-09-22T10:06:24+08:00
 draft: false
 toc: true
@@ -8,7 +8,7 @@ tags:
   - https
 ---
 
-HTTPS 又称 HTTP over SSL/TLS，运行在 SSL/TLS 上的 HTTP。
+Https 又称 Http over SSL/TLS，运行在 SSL/TLS 上的 Http。
 SSL/TLS 是负责加密通信的协议，建立在 TCP/IP 之上，所以也是一个可靠的传输协议。
 
 ## SSL
