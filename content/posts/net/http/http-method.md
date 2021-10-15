@@ -1,5 +1,5 @@
 ---
-title: "Http 有哪些请求方法"
+title: "HTTP 有哪些请求方法"
 date: 2021-10-13T16:08:32+08:00
 draft: false
 toc: true
