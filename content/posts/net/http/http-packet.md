@@ -85,6 +85,8 @@ Date: Wed, 13 Oct 2021 06:15:33 GMT
 - User-Agent：客户端报文，描述发起请求的 Http 客户端信息。
 - Date：共有报文，表示 Http 报文创建时间。
 - Server：描述服务器端的软件名称和版本号。
+- Accept-Encoding：客户端支持的压缩格式，常见的有 gzip、deflate、br 等，其中 gzip 的压缩率通常能够超过60%，而 br 算法是专门为 HTML 设计的，压缩效率比 gzip 好，能够在提高20%压缩密度。
+- Accept：客户端可理解的 MIME type，存在多个使用;分隔，例如 text/html、image/png 等。 
 
 ## 消息正文（body）
 保存需要传输给服务器的数据，可以是文本、图片等文件。
